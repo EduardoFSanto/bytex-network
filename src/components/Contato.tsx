@@ -12,7 +12,7 @@ export default function Contato() {
     const texto = encodeURIComponent(
       `Olá! Vim pelo site da Bytex Network.\n\n*Nome:* ${form.nome}\n*E-mail:* ${form.email}\n*Telefone:* ${form.telefone}\n*Serviço de interesse:* ${form.servico}\n*Mensagem:* ${form.mensagem}`
     );
-    window.open(`https://wa.me/5511999999999?text=${texto}`, "_blank");
+    window.open(`https://wa.me/5511999575756?text=${texto}`, "_blank");
     setEnviado(true);
     setTimeout(() => setEnviado(false), 4000);
   };
@@ -39,7 +39,7 @@ export default function Contato() {
 
           <div className="space-y-5">
             {[
-              { icon: Phone, label: "WhatsApp", value: "(11) 99999-9999" },
+              { icon: Phone, label: "WhatsApp", value: "(11) 99957-5756" },
               { icon: Mail, label: "E-mail", value: "contato@bytexnetwork.com.br" },
               { icon: MapPin, label: "Localização", value: "São Paulo, SP — Atendemos todo o Brasil" },
             ].map(({ icon: Icon, label, value }) => (
