@@ -7,6 +7,7 @@ const links = [
   { label: "Início", href: "#inicio" },
   { label: "Sobre", href: "#sobre" },
   { label: "Serviços", href: "#servicos" },
+  { label: "Automação IA", href: "#automacao" },
   { label: "Como Trabalhamos", href: "#processo" },
   { label: "Resultados", href: "#resultados" },
   { label: "Contato", href: "#contato" },
